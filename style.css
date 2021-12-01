@@ -62,11 +62,12 @@ svg{
 }
 
 .price ul li:nth-child(2){
-    margin-left: 30px;
-    margin-right: 60px;
+    margin-left: 20px;
+    margin-right: 50px;
     text-transform: capitalize;
-    margin-top: 8px;
+    margin-top: 5px;
     color: #525e86 !important;
+    font-weight: bold;
 }
 
 .price ul li:nth-child(3){
@@ -74,6 +75,7 @@ svg{
     color: #685ccc;
     text-transform: capitalize;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .log{
@@ -97,10 +99,17 @@ svg{
     box-shadow: 10px 10px 10px 0px #e4e1fc;
 }
 
-.log p{
-    margin-bottom: 10px;
+.button:hover{
+    background: #fff;
+    color: #382ae1;
+}
+
+.log a{
+    margin-bottom: 15px;
     text-transform: capitalize;
     color: #8595af;
     margin-top: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
