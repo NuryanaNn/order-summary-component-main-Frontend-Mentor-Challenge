@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #e0e8ff;
+    min-height: 100vh;
+}
+
+.card{
+    border-radius: 20px;
+    background: #fff;
+}
+
+svg{
+    border-radius: 20px 20px 0 0;
+}
+
+.details{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.details h5{
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.details p{
+    margin-top: 15px;
+    color: #7a7c95;
+}
+
+.price{
+    display: inline-block;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    background: #f8f9fe;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.price ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.price ul li:nth-child(1){
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.price ul li:nth-child(2){
+    margin-left: 30px;
+    margin-right: 60px;
+    text-transform: capitalize;
+    margin-top: 8px;
+    color: #525e86 !important;
+}
+
+.price ul li:nth-child(3){
+    margin-top: 20px;
+    color: #685ccc;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button{
+    margin-top: 30px;
+    background: #382ae1;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    box-shadow: 10px 10px 10px 0px #e4e1fc;
+}
+
+.log p{
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color: #8595af;
+    margin-top: 20px;
+}
+
